@@ -1,0 +1,3 @@
+Exchange...receives messages from publisher and routes to message queue(based on content / message props)
+message queue ... store messages
+Binding .... relationship btwn exchange and message queue
