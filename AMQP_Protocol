@@ -5,3 +5,8 @@ topic .... a means of distributing messages, using routing key e.g: accounts.usd
 
 can a message be routed to more than one queue?
 where does rabbit mq store messages? disk ...memory, are there limits?
+
+AMQP is multi channelled? what is it?
+AMQP is a binary protocol.....what is a binary protocol? there is binary and text protocols eg. TCP is binary and HTTP is a text protocol, the difference is how bits are
+send over the wire, for HTTP the number 15 will be send as "15", in it's binary representation(0's and 1's), as one, for Binary protocol, the number 1 and 5
+will be sent differently.
