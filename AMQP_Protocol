@@ -1,3 +1,7 @@
 Exchange...receives messages from publisher and routes to message queue(based on content / message props)
 message queue ... store messages
 Binding .... relationship btwn exchange and message queue
+topic .... a means of distributing messages, using routing key e.g: accounts.usd.*, accounts.kes.*
+
+can a message be routed to more than one queue?
+where does rabbit mq store messages? disk ...memory, are there limits?
